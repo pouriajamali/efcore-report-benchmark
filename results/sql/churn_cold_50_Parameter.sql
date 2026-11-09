@@ -1,0 +1,12 @@
+DECLARE @ids nvarchar(4000) = N'[5014,5015,5016,5017,5018,5019,5020,5021,5022,5023,5024,5025,5026,5027,5028,5029,5030,5031,5032,5033,5034,5035,5036,5037,5038,5039,5040,5041,5042,5043,5044,5045,5046,5047,5048,5049,5050,5051,5052,5053,5054,5055,5056,5057,5058,5059,5060,5061,5062,5063]';
+
+-- EF10LAB_20261109_135518_churn_cold_50_Parameter
+
+SELECT [t].[MerchantId], COUNT_BIG(*) AS [Count], COALESCE(SUM([t].[AmountMinor]), CAST(0 AS bigint)) AS [Amount]
+FROM [Transactions] AS [t]
+WHERE [t].[Status] = CAST(1 AS tinyint) AND [t].[MerchantId] IN (
+    SELECT [i].[value]
+    FROM OPENJSON(@ids) WITH ([value] int '$') AS [i]
+)
+GROUP BY [t].[MerchantId]
+ORDER BY [t].[MerchantId]

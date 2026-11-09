@@ -1,0 +1,10 @@
+{
+  "DataHashMatches": true,
+  "StoredDatasetSha256": "8d98e4e43596fd0ab4fd2f2de5fa57b941bb72081ec53a96ebdd810ebbda2207",
+  "RawTimedSamples": 1350,
+  "SteadySamples": 1080,
+  "ChurnSamples": 270,
+  "AggregateChecks": "Every warmup/timed result checked against independently generated counts and exact integer totals for each merchant",
+  "ResultsAllMatch": true,
+  "FinishedUtc": "2026-11-09T13:55:34.8452713Z"
+}

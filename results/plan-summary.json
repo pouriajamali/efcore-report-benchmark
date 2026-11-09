@@ -1,0 +1,236 @@
+[
+  {
+    "case": "steady_cold_500_Constant",
+    "relop_count": 6,
+    "physical_ops": {
+      "Compute Scalar": 1,
+      "Stream Aggregate": 1,
+      "Nested Loops": 1,
+      "Sort": 1,
+      "Constant Scan": 1,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  },
+  {
+    "case": "steady_cold_500_MultipleParameters",
+    "relop_count": 1008,
+    "physical_ops": {
+      "Compute Scalar": 502,
+      "Stream Aggregate": 1,
+      "Nested Loops": 1,
+      "Merge Interval": 1,
+      "Sort": 1,
+      "Concatenation": 1,
+      "Constant Scan": 500,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  },
+  {
+    "case": "steady_cold_500_Parameter",
+    "relop_count": 6,
+    "physical_ops": {
+      "Compute Scalar": 1,
+      "Stream Aggregate": 1,
+      "Nested Loops": 1,
+      "Sort": 1,
+      "Table-valued function": 1,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  },
+  {
+    "case": "steady_cold_50_Constant",
+    "relop_count": 3,
+    "physical_ops": {
+      "Compute Scalar": 1,
+      "Stream Aggregate": 1,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  },
+  {
+    "case": "steady_cold_50_MultipleParameters",
+    "relop_count": 108,
+    "physical_ops": {
+      "Compute Scalar": 52,
+      "Stream Aggregate": 1,
+      "Nested Loops": 1,
+      "Merge Interval": 1,
+      "Sort": 1,
+      "Concatenation": 1,
+      "Constant Scan": 50,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  },
+  {
+    "case": "steady_cold_50_Parameter",
+    "relop_count": 6,
+    "physical_ops": {
+      "Compute Scalar": 1,
+      "Stream Aggregate": 1,
+      "Nested Loops": 1,
+      "Sort": 1,
+      "Table-valued function": 1,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  },
+  {
+    "case": "steady_cold_5_Constant",
+    "relop_count": 3,
+    "physical_ops": {
+      "Compute Scalar": 1,
+      "Stream Aggregate": 1,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  },
+  {
+    "case": "steady_cold_5_MultipleParameters",
+    "relop_count": 18,
+    "physical_ops": {
+      "Compute Scalar": 7,
+      "Stream Aggregate": 1,
+      "Nested Loops": 1,
+      "Merge Interval": 1,
+      "Sort": 1,
+      "Concatenation": 1,
+      "Constant Scan": 5,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  },
+  {
+    "case": "steady_cold_5_Parameter",
+    "relop_count": 6,
+    "physical_ops": {
+      "Compute Scalar": 1,
+      "Stream Aggregate": 1,
+      "Nested Loops": 1,
+      "Sort": 1,
+      "Table-valued function": 1,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  },
+  {
+    "case": "steady_hot_500_Constant",
+    "relop_count": 6,
+    "physical_ops": {
+      "Compute Scalar": 1,
+      "Stream Aggregate": 1,
+      "Nested Loops": 1,
+      "Sort": 1,
+      "Constant Scan": 1,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  },
+  {
+    "case": "steady_hot_500_MultipleParameters",
+    "relop_count": 1008,
+    "physical_ops": {
+      "Compute Scalar": 502,
+      "Stream Aggregate": 1,
+      "Nested Loops": 1,
+      "Merge Interval": 1,
+      "Sort": 1,
+      "Concatenation": 1,
+      "Constant Scan": 500,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  },
+  {
+    "case": "steady_hot_500_Parameter",
+    "relop_count": 6,
+    "physical_ops": {
+      "Compute Scalar": 1,
+      "Stream Aggregate": 1,
+      "Nested Loops": 1,
+      "Sort": 1,
+      "Table-valued function": 1,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  },
+  {
+    "case": "steady_hot_50_Constant",
+    "relop_count": 3,
+    "physical_ops": {
+      "Compute Scalar": 1,
+      "Stream Aggregate": 1,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  },
+  {
+    "case": "steady_hot_50_MultipleParameters",
+    "relop_count": 108,
+    "physical_ops": {
+      "Compute Scalar": 52,
+      "Stream Aggregate": 1,
+      "Nested Loops": 1,
+      "Merge Interval": 1,
+      "Sort": 1,
+      "Concatenation": 1,
+      "Constant Scan": 50,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  },
+  {
+    "case": "steady_hot_50_Parameter",
+    "relop_count": 6,
+    "physical_ops": {
+      "Compute Scalar": 1,
+      "Stream Aggregate": 1,
+      "Nested Loops": 1,
+      "Sort": 1,
+      "Table-valued function": 1,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  },
+  {
+    "case": "steady_hot_5_Constant",
+    "relop_count": 3,
+    "physical_ops": {
+      "Compute Scalar": 1,
+      "Stream Aggregate": 1,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  },
+  {
+    "case": "steady_hot_5_MultipleParameters",
+    "relop_count": 18,
+    "physical_ops": {
+      "Compute Scalar": 7,
+      "Stream Aggregate": 1,
+      "Nested Loops": 1,
+      "Merge Interval": 1,
+      "Sort": 1,
+      "Concatenation": 1,
+      "Constant Scan": 5,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  },
+  {
+    "case": "steady_hot_5_Parameter",
+    "relop_count": 6,
+    "physical_ops": {
+      "Compute Scalar": 1,
+      "Stream Aggregate": 1,
+      "Nested Loops": 1,
+      "Sort": 1,
+      "Table-valued function": 1,
+      "Index Seek": 1
+    },
+    "boundary": "Actual diagnostic execution after timed observations; no diagnostic timing used in charts."
+  }
+]

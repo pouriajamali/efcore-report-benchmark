@@ -1,0 +1,92 @@
+[
+  {
+    "Key": "steady_cold_5_MultipleParameters",
+    "ActualPlan": "plans/steady_cold_5_MultipleParameters.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  },
+  {
+    "Key": "steady_hot_500_Parameter",
+    "ActualPlan": "plans/steady_hot_500_Parameter.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  },
+  {
+    "Key": "steady_cold_5_Parameter",
+    "ActualPlan": "plans/steady_cold_5_Parameter.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  },
+  {
+    "Key": "steady_cold_5_Constant",
+    "ActualPlan": "plans/steady_cold_5_Constant.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  },
+  {
+    "Key": "steady_hot_50_Constant",
+    "ActualPlan": "plans/steady_hot_50_Constant.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  },
+  {
+    "Key": "steady_cold_50_Constant",
+    "ActualPlan": "plans/steady_cold_50_Constant.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  },
+  {
+    "Key": "steady_cold_500_Parameter",
+    "ActualPlan": "plans/steady_cold_500_Parameter.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  },
+  {
+    "Key": "steady_cold_500_MultipleParameters",
+    "ActualPlan": "plans/steady_cold_500_MultipleParameters.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  },
+  {
+    "Key": "steady_hot_50_MultipleParameters",
+    "ActualPlan": "plans/steady_hot_50_MultipleParameters.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  },
+  {
+    "Key": "steady_cold_500_Constant",
+    "ActualPlan": "plans/steady_cold_500_Constant.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  },
+  {
+    "Key": "steady_hot_5_MultipleParameters",
+    "ActualPlan": "plans/steady_hot_5_MultipleParameters.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  },
+  {
+    "Key": "steady_hot_5_Constant",
+    "ActualPlan": "plans/steady_hot_5_Constant.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  },
+  {
+    "Key": "steady_hot_5_Parameter",
+    "ActualPlan": "plans/steady_hot_5_Parameter.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  },
+  {
+    "Key": "steady_cold_50_Parameter",
+    "ActualPlan": "plans/steady_cold_50_Parameter.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  },
+  {
+    "Key": "steady_hot_500_MultipleParameters",
+    "ActualPlan": "plans/steady_hot_500_MultipleParameters.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  },
+  {
+    "Key": "steady_hot_50_Parameter",
+    "ActualPlan": "plans/steady_hot_50_Parameter.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  },
+  {
+    "Key": "steady_hot_500_Constant",
+    "ActualPlan": "plans/steady_hot_500_Constant.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  },
+  {
+    "Key": "steady_cold_50_MultipleParameters",
+    "ActualPlan": "plans/steady_cold_50_MultipleParameters.sqlplan",
+    "Boundary": "Separate diagnostic execution after timed observations; not included in latency or pre-diagnostic DMV counts"
+  }
+]

@@ -1,0 +1,7 @@
+-- EF10LAB_20261109_135518_steady_cold_50_Constant
+
+SELECT [t].[MerchantId], COUNT_BIG(*) AS [Count], COALESCE(SUM([t].[AmountMinor]), CAST(0 AS bigint)) AS [Amount]
+FROM [Transactions] AS [t]
+WHERE [t].[Status] = CAST(1 AS tinyint) AND [t].[MerchantId] IN (5001, 5002, 5003, 5004, 5005, 5006, 5007, 5008, 5009, 5010, 5011, 5012, 5013, 5014, 5015, 5016, 5017, 5018, 5019, 5020, 5021, 5022, 5023, 5024, 5025, 5026, 5027, 5028, 5029, 5030, 5031, 5032, 5033, 5034, 5035, 5036, 5037, 5038, 5039, 5040, 5041, 5042, 5043, 5044, 5045, 5046, 5047, 5048, 5049, 5050)
+GROUP BY [t].[MerchantId]
+ORDER BY [t].[MerchantId]

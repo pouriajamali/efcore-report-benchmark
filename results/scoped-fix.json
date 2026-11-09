@@ -1,0 +1,381 @@
+{
+  "GlobalDefault": "MultipleParameters",
+  "ScopedChange": "EF.Parameter(ids)",
+  "Case": "500 cold merchants, same fixed list as primary benchmark",
+  "WarmupsPerVariant": 5,
+  "SamplesPerVariant": 30,
+  "AllResultsMatch": true,
+  "ExpectedResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257",
+  "Raw": [
+    {
+      "Iteration": 0,
+      "Variant": "default-scalar",
+      "ClientMs": 7.9704,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 0,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.7328,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 1,
+      "Variant": "default-scalar",
+      "ClientMs": 7.7465,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 1,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.5081,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 2,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.5291,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 2,
+      "Variant": "default-scalar",
+      "ClientMs": 8.8618,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 3,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.8737,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 3,
+      "Variant": "default-scalar",
+      "ClientMs": 8.6088,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 4,
+      "Variant": "default-scalar",
+      "ClientMs": 8.3683,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 4,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.8521,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 5,
+      "Variant": "default-scalar",
+      "ClientMs": 8.4076,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 5,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.7555,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 6,
+      "Variant": "default-scalar",
+      "ClientMs": 11.1271,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 6,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.9194,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 7,
+      "Variant": "default-scalar",
+      "ClientMs": 8.5023,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 7,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 3.0949,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 8,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.9602,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 8,
+      "Variant": "default-scalar",
+      "ClientMs": 8.5816,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 9,
+      "Variant": "default-scalar",
+      "ClientMs": 8.0068,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 9,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.5173,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 10,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.3758,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 10,
+      "Variant": "default-scalar",
+      "ClientMs": 7.4298,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 11,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.6103,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 11,
+      "Variant": "default-scalar",
+      "ClientMs": 7.7346,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 12,
+      "Variant": "default-scalar",
+      "ClientMs": 7.9892,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 12,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.5671,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 13,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.4145,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 13,
+      "Variant": "default-scalar",
+      "ClientMs": 7.6557,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 14,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 3.6274,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 14,
+      "Variant": "default-scalar",
+      "ClientMs": 7.9279,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 15,
+      "Variant": "default-scalar",
+      "ClientMs": 8.2199,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 15,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.6661,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 16,
+      "Variant": "default-scalar",
+      "ClientMs": 8.3323,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 16,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.7266,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 17,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.9979,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 17,
+      "Variant": "default-scalar",
+      "ClientMs": 8.2674,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 18,
+      "Variant": "default-scalar",
+      "ClientMs": 11.1059,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 18,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 4.8359,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 19,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 3.7571,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 19,
+      "Variant": "default-scalar",
+      "ClientMs": 10.6403,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 20,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.8827,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 20,
+      "Variant": "default-scalar",
+      "ClientMs": 9.1183,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 21,
+      "Variant": "default-scalar",
+      "ClientMs": 9.3083,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 21,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 4.6636,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 22,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.9384,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 22,
+      "Variant": "default-scalar",
+      "ClientMs": 8.6196,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 23,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 3.5077,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 23,
+      "Variant": "default-scalar",
+      "ClientMs": 9.5435,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 24,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.8829,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 24,
+      "Variant": "default-scalar",
+      "ClientMs": 9.0668,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 25,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 3.4184,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 25,
+      "Variant": "default-scalar",
+      "ClientMs": 9.1494,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 26,
+      "Variant": "default-scalar",
+      "ClientMs": 8.1675,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 26,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.7886,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 27,
+      "Variant": "default-scalar",
+      "ClientMs": 8.9464,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 27,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.8893,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 28,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 2.7131,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 28,
+      "Variant": "default-scalar",
+      "ClientMs": 8.733,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 29,
+      "Variant": "scoped-EF.Parameter",
+      "ClientMs": 3.3678,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    },
+    {
+      "Iteration": 29,
+      "Variant": "default-scalar",
+      "ClientMs": 8.6001,
+      "ResultSha256": "6a3e2694107e3ae3b3768aeb4997cc3a0e0216f0673f59174942bc132e5fc257"
+    }
+  ],
+  "Sql": [
+    "-- EF10FIX_20261109_135535_baseline\r\n\r\nSELECT [t].[MerchantId], COUNT_BIG(*) AS [Count], COALESCE(SUM([t].[AmountMinor]), CAST(0 AS bigint)) AS [Amount]\r\nFROM [Transactions] AS [t]\r\nWHERE [t].[Status] = CAST(1 AS tinyint) AND [t].[MerchantId] IN (@ids1, @ids2, @ids3, @ids4, @ids5, @ids6, @ids7, @ids8, @ids9, @ids10, @ids11, @ids12, @ids13, @ids14, @ids15, @ids16, @ids17, @ids18, @ids19, @ids20, @ids21, @ids22, @ids23, @ids24, @ids25, @ids26, @ids27, @ids28, @ids29, @ids30, @ids31, @ids32, @ids33, @ids34, @ids35, @ids36, @ids37, @ids38, @ids39, @ids40, @ids41, @ids42, @ids43, @ids44, @ids45, @ids46, @ids47, @ids48, @ids49, @ids50, @ids51, @ids52, @ids53, @ids54, @ids55, @ids56, @ids57, @ids58, @ids59, @ids60, @ids61, @ids62, @ids63, @ids64, @ids65, @ids66, @ids67, @ids68, @ids69, @ids70, @ids71, @ids72, @ids73, @ids74, @ids75, @ids76, @ids77, @ids78, @ids79, @ids80, @ids81, @ids82, @ids83, @ids84, @ids85, @ids86, @ids87, @ids88, @ids89, @ids90, @ids91, @ids92, @ids93, @ids94, @ids95, @ids96, @ids97, @ids98, @ids99, @ids100, @ids101, @ids102, @ids103, @ids104, @ids105, @ids106, @ids107, @ids108, @ids109, @ids110, @ids111, @ids112, @ids113, @ids114, @ids115, @ids116, @ids117, @ids118, @ids119, @ids120, @ids121, @ids122, @ids123, @ids124, @ids125, @ids126, @ids127, @ids128, @ids129, @ids130, @ids131, @ids132, @ids133, @ids134, @ids135, @ids136, @ids137, @ids138, @ids139, @ids140, @ids141, @ids142, @ids143, @ids144, @ids145, @ids146, @ids147, @ids148, @ids149, @ids150, @ids151, @ids152, @ids153, @ids154, @ids155, @ids156, @ids157, @ids158, @ids159, @ids160, @ids161, @ids162, @ids163, @ids164, @ids165, @ids166, @ids167, @ids168, @ids169, @ids170, @ids171, @ids172, @ids173, @ids174, @ids175, @ids176, @ids177, @ids178, @ids179, @ids180, @ids181, @ids182, @ids183, @ids184, @ids185, @ids186, @ids187, @ids188, @ids189, @ids190, @ids191, @ids192, @ids193, @ids194, @ids195, @ids196, @ids197, @ids198, @ids199, @ids200, @ids201, @ids202, @ids203, @ids204, @ids205, @ids206, @ids207, @ids208, @ids209, @ids210, @ids211, @ids212, @ids213, @ids214, @ids215, @ids216, @ids217, @ids218, @ids219, @ids220, @ids221, @ids222, @ids223, @ids224, @ids225, @ids226, @ids227, @ids228, @ids229, @ids230, @ids231, @ids232, @ids233, @ids234, @ids235, @ids236, @ids237, @ids238, @ids239, @ids240, @ids241, @ids242, @ids243, @ids244, @ids245, @ids246, @ids247, @ids248, @ids249, @ids250, @ids251, @ids252, @ids253, @ids254, @ids255, @ids256, @ids257, @ids258, @ids259, @ids260, @ids261, @ids262, @ids263, @ids264, @ids265, @ids266, @ids267, @ids268, @ids269, @ids270, @ids271, @ids272, @ids273, @ids274, @ids275, @ids276, @ids277, @ids278, @ids279, @ids280, @ids281, @ids282, @ids283, @ids284, @ids285, @ids286, @ids287, @ids288, @ids289, @ids290, @ids291, @ids292, @ids293, @ids294, @ids295, @ids296, @ids297, @ids298, @ids299, @ids300, @ids301, @ids302, @ids303, @ids304, @ids305, @ids306, @ids307, @ids308, @ids309, @ids310, @ids311, @ids312, @ids313, @ids314, @ids315, @ids316, @ids317, @ids318, @ids319, @ids320, @ids321, @ids322, @ids323, @ids324, @ids325, @ids326, @ids327, @ids328, @ids329, @ids330, @ids331, @ids332, @ids333, @ids334, @ids335, @ids336, @ids337, @ids338, @ids339, @ids340, @ids341, @ids342, @ids343, @ids344, @ids345, @ids346, @ids347, @ids348, @ids349, @ids350, @ids351, @ids352, @ids353, @ids354, @ids355, @ids356, @ids357, @ids358, @ids359, @ids360, @ids361, @ids362, @ids363, @ids364, @ids365, @ids366, @ids367, @ids368, @ids369, @ids370, @ids371, @ids372, @ids373, @ids374, @ids375, @ids376, @ids377, @ids378, @ids379, @ids380, @ids381, @ids382, @ids383, @ids384, @ids385, @ids386, @ids387, @ids388, @ids389, @ids390, @ids391, @ids392, @ids393, @ids394, @ids395, @ids396, @ids397, @ids398, @ids399, @ids400, @ids401, @ids402, @ids403, @ids404, @ids405, @ids406, @ids407, @ids408, @ids409, @ids410, @ids411, @ids412, @ids413, @ids414, @ids415, @ids416, @ids417, @ids418, @ids419, @ids420, @ids421, @ids422, @ids423, @ids424, @ids425, @ids426, @ids427, @ids428, @ids429, @ids430, @ids431, @ids432, @ids433, @ids434, @ids435, @ids436, @ids437, @ids438, @ids439, @ids440, @ids441, @ids442, @ids443, @ids444, @ids445, @ids446, @ids447, @ids448, @ids449, @ids450, @ids451, @ids452, @ids453, @ids454, @ids455, @ids456, @ids457, @ids458, @ids459, @ids460, @ids461, @ids462, @ids463, @ids464, @ids465, @ids466, @ids467, @ids468, @ids469, @ids470, @ids471, @ids472, @ids473, @ids474, @ids475, @ids476, @ids477, @ids478, @ids479, @ids480, @ids481, @ids482, @ids483, @ids484, @ids485, @ids486, @ids487, @ids488, @ids489, @ids490, @ids491, @ids492, @ids493, @ids494, @ids495, @ids496, @ids497, @ids498, @ids499, @ids500)\r\nGROUP BY [t].[MerchantId]\r\nORDER BY [t].[MerchantId]",
+    "-- EF10FIX_20261109_135535_scoped\r\n\r\nSELECT [t].[MerchantId], COUNT_BIG(*) AS [Count], COALESCE(SUM([t].[AmountMinor]), CAST(0 AS bigint)) AS [Amount]\r\nFROM [Transactions] AS [t]\r\nWHERE [t].[Status] = CAST(1 AS tinyint) AND [t].[MerchantId] IN (\r\n    SELECT [i].[value]\r\n    FROM OPENJSON(@ids) WITH ([value] int \u0027$\u0027) AS [i]\r\n)\r\nGROUP BY [t].[MerchantId]\r\nORDER BY [t].[MerchantId]"
+  ],
+  "ParameterCounts": [
+    500,
+    1
+  ],
+  "FinishedUtc": "2026-11-09T13:55:36.2272979Z",
+  "TimingBoundary": "Warmed sequential paired follow-up, randomized order; separate from primary 1350 observations"
+}
